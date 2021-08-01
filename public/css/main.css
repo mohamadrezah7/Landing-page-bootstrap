@@ -1,0 +1,210 @@
+@font-face{
+    font-family: yekan;
+    src : url("../fonts/iranyekanwebbold.ttf")
+}
+@font-face{
+    font-family: beuty;
+    src: url("../fonts/The\ Beauty.otf");
+}
+@font-face{
+    font-family: demi;
+    src: url("../fonts/Demilton.ttf");
+}
+html{
+  scroll-behavior: smooth !important;
+}
+
+*{
+    font-family: yekan;
+    
+}
+
+.nav-menu{
+    padding: 20px !important;
+    transition: all .7s !important;
+  }
+  .custom-navbar{
+    padding: 7px !important;
+  }
+  .menu-item{
+    font-size: 17px;
+    color: #eee;
+    transition: color .5s;
+  }
+  
+  .menu-item:hover{
+    color: #bdc3c7 !important;
+  }
+  .line1 , .line2 , .line3{
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    transition: all .5s;
+  
+  }
+  
+  .change .line1{
+  transform: rotate(-45deg) translate(-5px,6px);
+  }
+  .change .line2{
+    opacity: 0;
+  }
+  .change .line3{
+  transform: rotate(45deg) translate(-5px,-6px);
+  }
+
+  
+
+header{
+    height: 100vh;
+    background: url(../images/B1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.fontf{
+    font-family: demi;
+}
+
+ .banner{
+    position: absolute;
+    top: 60%;
+    left: 67%;
+    transform: translate(-50%,-50%);
+  } 
+
+  .banner-heading{
+    animation-name: anim;
+    animation-duration: 3s;
+  }
+  
+  .banner-par{
+    animation-name: anim2;
+    animation-duration: 3s;
+    animation-delay: .2s;
+    animation-fill-mode: backwards;
+  }
+  
+  @keyframes anim{
+    0%{
+      transform: translateX(-130px);
+      opacity: 0;
+    }
+    100%{
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes anim2{
+    0%{
+      transform: translatex(130px);
+      opacity: 0;
+    }
+    100%{
+      transform: translatex(0px);
+      opacity: 1;
+    }
+  }
+
+  .sec1{
+      background-image: url(../images/svg.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      
+  }
+  .hsec1{
+    color: #d63031;
+  }
+  .materialsec{
+    color: #A3CB38;
+  }
+  .h1sec2{
+    color: #0652DD;
+  }
+  .h1sec3{
+    color: #833471;
+  }
+  .h1sec4{
+    color: #006266;
+  }
+  #product{
+      background-image: url(../images/svg\ 2.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      
+  }
+  #myblog{
+      background-image: url(../images/svg3.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+
+  #mycontact{
+      background-image: url(../images/contact1.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+
+
+  
+  .btn-grad {background-image: linear-gradient(to right, #085078 0%, #85D8CE  51%, #085078  100%)}
+  .btn-grad {
+     
+     padding: 15px;
+     text-align: center;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     
+   }
+
+   .btn-grad:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+   .fobtn:focus{
+     outline: none !important;
+   }
+  .foot1{
+    background-image: url(../images/Footer-Background2.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+
+  .badge{
+    font-size: 15px !important;
+    display: none !important;
+  }
+  
+  .btn-grad2 {background-image: linear-gradient(to right, #EDE574 0%, #E1F5C4  51%, #EDE574  100%)}
+  .btn-grad2 {
+     padding: 15px 45px;
+     text-align: center;
+     transition: 0.5s;
+     background-size: 300% auto;
+     font-family: cursive;
+     font-size: 21px;            
+     border-radius: 10px;
+   }
+
+   .btn-grad2:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+   .btn-grad2:focus{
+    outline: none !important;
+  }
+
+  
+  
+  

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>GoliArt</title>
+    <link rel="title icon" type="image/png" href="images/gem.svg">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/bootstrap.fa.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"/>
+      <script src="https://www.gstatic.com/firebasejs/8.6.4/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.6.4/firebase-firestore.js"></script>
+  </head>
+  <body data-target=".navbar" data-offset="50" data-spy="scroll">
+    <!-- header -->
+    <header>
+        <!-- Navbar  -->
+        <nav class="navbar nav-menu navbar-expand-lg navbar-light fixed-top shadow-lg ">
+          <button class="navbar-toggler nav-button" style="outline: none !important;" data-toggle="collapse" data-target="#mynav">
+            <div class="line1 bg-dark"></div>
+            <div class="line2 bg-dark"></div>
+            <div class="line3 bg-dark"></div>
+          </button>
+          <a href="" class="navbar-brand text-dark ml-3">
+            <i class="fas fa-gem" style="font-size: 35px;"></i>
+          </a>
+          <div class="collapse navbar-collapse" id="mynav">
+            <ul class="navbar-nav list-unstyled my-3 my-md-0">
+              <li class="nav-item  active">
+                <a href="#" class="nav-link m-2 menu-item">خانه</a>
+              </li>
+              <li class="nav-item">
+                <a href="#product" class="nav-link m-2 menu-item" >تولیدات</a>
+              </li>
+              <li class="nav-item ">
+                <a href="#myblog" class="nav-link m-2 menu-item">تازه ها</a>
+              </li>
+              <li class="nav-item">
+                <a href="#mycontact" class="nav-link m-2 menu-item">ارتباط با ما</a>
+              </li>
+            </ul>
+              <form action="" class="form-inline mr-auto">
+                <div class="input-group ">
+                  <input type="text"  placeholder="جستجو" class="form-control">
+                  <div class="input-group-append">
+                    <button class="btn btn-outline-secondary">
+                      <i class="fas fa-search"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+          </div>
+        </nav>
+      <!-- End of Navbar  -->
+
+      <!-- Banner  -->
+            <div class="text-light text-capitalize  user-select-none  banner mr-3">
+              <h1 class="display-1 fontf banner-heading">Goli Art</h1>
+              <h2 class="display-4 banner-par" >جواهردوزی و گلسینه</h2>
+              <a href="https://www.instagram.com/goli.artt/" target="_blank" class="banner-par">
+                <button class="btn-grad2 border-0 mt-2 text-capitalize text-black">instagram <i class="fab fa-instagram fa-lg"></i></button>
+              </a>
+            </div>
+      <!-- End of Banner  -->
+    </header>
+    <!-- End of header -->
+    
+    <!-- Features -->
+      <section class="bg-light py-5 sec1">
+        <div class="container">
+          <div class="text-center">
+            <h1 class="hsec1">مدیون اعتماد شماییم</h1>
+            <p class=" my-5">تولید و عرضه گلسینه های دست ساز با متریال دلخواه شما مشتری عزیز</p>
+          </div>
+          <div class="row my-5 text-center">
+            <div class="col-lg-4 col-md-6 px-5 mb-5">
+              <i class="fas fa-award text-warning" style="font-size: 100px;"></i>
+              <h1 class="text-black">بهترین کیفیت</h1>
+              <p class="text-muted mt-2">مهترین مسئله ما کیفیت تولیدات است. ما بهترین کیفیت ممکن را تضمین میکنیم</p>
+            </div>
+            <div class="col-lg-4 col-md-6 px-5 mb-5">
+              <i class="fas fa-leaf materialsec" style="font-size: 100px;"></i>
+              <h1 class="text-black">بهترین متریال</h1>
+              <p class="text-muted mt-2">برای ساخت گلسینه ها از بهترین و با دوام ترین متریال موجود استفاده شده</p>
+            </div>
+            <div class="col-lg-4 col-md-12 px-5 mb-5">
+              <i class="fas fa-hand-holding-usd text-success" style="font-size: 100px;"></i>
+              <h1 class="text-black">قیمت مناسب</h1>
+              <p class="text-muted mt-2">تولیدات ما با مناسب ترین قیمت عرضه میشوند و در اختیار شما عزیزان قرار میگیرند</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- End of Features -->
+    <!-- Products  -->
+    <section class="py-5" id="product">
+      <div class="container">
+        <div class="text-center">
+          <h1 class="h1sec2">کیفیت سخن محصولات ماست</h1>
+          <p class=" my-5">مهمترین مسئله ما کیفیت تولیدات است. ما بهترین کیفیت ممکن را تضمین میکنیم</p>
+        </div>
+        <div class="row my-5 text-center ">
+          <div class="col-lg-4 col-md-6 mt-lg-5 p-5">
+            <img src="images/a2.jpg" alt="" class="img-thumbnail">
+            <h2 class="my-3 ">گلسینه طرح پروانه</h2>
+            <p class="text-muted ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
+          </div>
+          <div class="col-lg-4 col-md-6 p-5">
+            <img src="images/c1.jpg" alt="" class="img-thumbnail">
+            <h2 class="my-3 ">طرح جاکلیدی</h2>
+            <p class="text-muted ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
+          </div>
+          <div class="col-lg-4 col-md-12 mt-lg-5 p-5">
+            <img src="images/c2.jpg" alt="" class="img-thumbnail">
+            <h2 class="my-3 ">گلسینه طرح عینک</h2>
+            <p class="text-muted ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Products  -->
+
+    <!-- Blog  -->
+      <section class=" p-5" id="myblog">
+        <div class="container-fluid">
+          <h1 class=" text-center mb-5 h1sec3">تازه های صفحه های اجتماعی </h1>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mb-5 px-3">
+              <div class="card">
+                <img src="images/4.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                  <div class="card-title">
+                    <h3 class="text-secondary">طرح بال</h3>
+                  </div>
+                  <div class="card-subtitle my-4">
+                    <p class="text-muted">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+                  </div>
+                  <div class="text-right">
+                    <a href="https://www.facebook.com" target="_blank">
+                      <i class="fab fa-facebook-f ml-3 text-primary" style="font-size: 30px;"></i>
+                    </a>
+                    <a href="https://www.instagram.com/goli.artt/" target="_blank">
+                      <i class="fab fa-instagram ml-3 text-danger" style="font-size: 30px;"></i>
+                    </a>
+                    <a href="https://t.me/mohamadreza_h7" target="_blank">
+                      <i class="fab fa-telegram-plane ml-3 text-primary" style="font-size: 30px;"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 px-3">
+              <div class="card">
+                <img src="images/a33.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                  <div class="card-title">
+                    <h3 class="text-secondary">طرح تمشک</h3>
+                  </div>
+                  <div class="card-subtitle my-4">
+                    <p class="text-muted">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+                  </div>
+                  <div class="text-right">
+                    <a href="https://www.facebook.com" target="_blank">
+                      <i class="fab fa-facebook-f ml-3 text-primary" style="font-size: 30px;"></i>
+                    </a>
+                    <a href="https://www.instagram.com/goli.artt/" target="_blank">
+                      <i class="fab fa-instagram ml-3 text-danger" style="font-size: 30px;"></i>
+                    </a>
+                    <a href="https://t.me/mohamadreza_h7" target="_blank">
+                      <i class="fab fa-telegram-plane ml-3 text-primary" style="font-size: 30px;"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 px-3">
+              <div class="card">
+                <img src="images/a4.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                  <div class="card-title">
+                    <h3 class="text-secondary">طرح انار</h3>
+                  </div>
+                  <div class="card-subtitle my-4">
+                    <p class="text-muted">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+                  </div>
+                  <div class="text-right">
+                    <a href="https://www.facebook.com" target="_blank">
+                      <i class="fab fa-facebook-f ml-3 text-primary" style="font-size: 30px;"></i>
+                    </a>
+                    <a href="https://www.instagram.com/goli.artt/" target="_blank">
+                      <i class="fab fa-instagram ml-3 text-danger" style="font-size: 30px;"></i>
+                    </a>
+                    <a href="https://t.me/mohamadreza_h7" target="_blank">
+                      <i class="fab fa-telegram-plane ml-3 text-primary" style="font-size: 30px;"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 px-3">
+              <div class="card">
+                <img src="images/c66.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                  <div class="card-title">
+                    <h3 class="text-secondary">طرح ستاره روی لباس</h3>
+                  </div>
+                  <div class="card-subtitle my-4">
+                    <p class="text-muted">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+                  </div>
+                  <div class="text-right">
+                    <a href="https://www.facebook.com" target="_blank">
+                      <i class="fab fa-facebook-f ml-3 text-primary" style="font-size: 30px;"></i>
+                    </a>
+                    <a href="https://www.instagram.com/goli.artt/" target="_blank">
+                      <i class="fab fa-instagram ml-3 text-danger" style="font-size: 30px;"></i>
+                    </a>
+                    <a href="https://t.me/mohamadreza_h7" target="_blank">
+                      <i class="fab fa-telegram-plane ml-3 text-primary" style="font-size: 30px;"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- Ends of Blog  -->
+    
+    <!-- Contact  -->
+    <section class="bg-light p-5" id="mycontact">
+      <div class="container-fluid">
+        <div class="text-center">
+          <h1 class="h1sec4">ارتباط با ما</h1>
+          <p class=" my-5">نظرات و پیشنهادات خود را با ما در میان بگذارید</p>
+          <span class="badge notice text badge-success p-2">پیام شما با موفقیت ثبت شد با تشکر<i class="far fa-thumbs-up text-white mr-2" style="font-size: 20px !important;"></i></span>
+          <div id='progressbar'></div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6 ">
+            <h3 class=" my-3 text-center">آیا سوالی دارید ؟</h3>
+            <form action="" class="text-muted" id="add-contact-form">
+              <div class="form-group ">
+                <input class="form-control" name="name" placeholder="نام" type="text" required>
+              </div>
+              <div class="form-group">
+                <input class="form-control" name="email" placeholder="ایمیل" type="email" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" cols="30" rows="3" placeholder="متن پیام"></textarea>
+              </div>
+              <button type="submit" class="btn-grad btn-block border-0 fobtn">ارسال</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Contact  -->
+    <!-- Footer  -->
+    <footer class=" py-5 foot1" >
+      <div class="container text-center">
+        <h1 class="display-3">
+          <a href="" class="text-white">
+            <i class="fas fa-gem"></i>
+          </a>
+        </h1>
+        <h2 class="text-white text-capitalize" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+          goli art Crochet Jewelry  
+        </h2>
+        <div class="mt-5 d-flex justify-content-end">
+          <a href="https://t.me/mohamadreza_h7" target="_blank">
+            <i class="fab fa-telegram-plane ml-3 text-white px-2" style="font-size: 35px;"></i>
+          </a>
+          <a href="" target="_blank">
+            <i class="fas fa-rss ml-3 text-white px-2" style="font-size: 35px;"></i>
+          </a>
+          <a href="https://www.instagram.com/goli.artt/" target="_blank">
+            <i class="fab fa-instagram ml-3 text-white px-2" style="font-size: 35px;"></i>
+          </a>
+          <a href="https://accounts.google.com/m.rezahossini@gmail.com" target="_blank">
+            <i class="fab fa-google ml-3 text-white px-2" style="font-size: 35px;"></i>
+          </a>
+          <a href="https://www.facebook.com" target="_blank">
+            <i class="fab fa-facebook-f ml-3 text-white px-2" style="font-size: 28px;"></i>
+          </a>
+        </div>
+        <p class="text-light d-flex justify-content-end text-capitalize mt-1" style="font-family: sans-serif;">designed by m.R hoseini | powered by bootstrap</p>
+      </div>
+    </footer>
+    <!-- End of Footer  -->
+
+
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyB3-8XWTAa6ng7PzMDStsESVZK4MZcJiAo",
+        authDomain: "ir-project-58a3e.firebaseapp.com",
+        projectId: "ir-project-58a3e",
+        storageBucket: "ir-project-58a3e.appspot.com",
+        messagingSenderId: "1084117973028",
+        appId: "1:1084117973028:web:94643da1b7b1b06a8c80b1",
+        measurementId: "G-7821446JL5"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+
+
+      const db = firebase.firestore();
+      db.settings({ timestampsInSnapshots: true });
+    </script>
+    
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="scripts/jquery-3.3.1.slim.min.js"></script>
+    <script src="scripts/popper.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="./scripts/Contact.js"></script>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
